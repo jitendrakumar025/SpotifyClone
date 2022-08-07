@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Never gonna beat it</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li> <img class="logo" src="logo.jpg" alt="logo">Spotify
+            </li>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#"> About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songslist">
+            <h1>Your favourite songs here</h1>
+            <div class="songItemContainer">
+                <div class="songs">
+                    <img src="song1.jpg" alt=""> <span class="songName"></span> <span class="timespan">5:02 <i
+                           id="0" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/1.jpg" alt=""> <span class="songName"> Ik Vaari Aa - Raabta (Arijit Singh)</span> <span
+                        class="timespan">5:02 <i id="1" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                 <div class="songs">
+                    <img src="/covers/2.jpg" alt=""> <span class="songName"> Gangland - Mankirt Aulakh (DJ Remix)</span> <span class="timespan">5:02 <i id="2" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/3.jpg" alt=""> <span class="songName">Naina Da Kya Kasoor - Unplugged</span> <span
+                        class="timespan">5:02 <i id="3" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/4.jpg" alt=""> <span class="songName">Phir Le Aya Dil - Arijit Singh</span> <span
+                        class="timespan">5:02 <i id="4" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/5.jpg" alt=""> <span class="songName">Raat Di Gedi - Diljit Dosanjh</span> <span
+                        class="timespan">5:02 <i id="5" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/6.jpg" alt=""> <span class="songName">Rang Gora Akhil</span> <span class="timespan">5:02 <i
+                           id="6" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/7.jpg" alt=""> <span class="songName">Ranjhana - Diljit Dosanjh</span> <span class="timespan">5:02
+                        <i id="7" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/8.jpg" alt=""> <span class="songName">Sharry Maan - 3 Peg</span> <span class="timespan">5:02 <i
+                           id="8" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div>
+                <div class="songs">
+                    <img src="/covers/9.jpg" alt=""> <span class="songName">Yaarr Ni Milyaa - Hardy Sandhu</span> <span
+                        class="timespan">5:02 <i id="9" class='bx bx-xs songItemPlay bx-play-circle'></i></span>
+                </div> 
+            </div>
+            <div class="rightpart">
+            </div>
+        </div>
+    </div>
+    <div class="playbar">
+        <input type="range" name="songprogress" id="songprogress"  value="0" min="0" max="100">
+        <div class="songinfo">
+            <img id="pp" src="playing.gif" alt="">  <span id="masterSongName">Ghoomar-Padmavat</span>
+        </div>
+        <div class="icons">
+            <i class='bx bx-md bx-skip-previous-circle' id="previous"></i>
+            <i class='bx bx-md bx-play-circle' id="powerplay"></i>
+            <i class='bx bx-md bx-skip-next-circle' id="next"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
